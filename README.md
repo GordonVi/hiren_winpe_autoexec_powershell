@@ -1,4 +1,4 @@
-Create a Bootable ISO or CD that will execute a custom POwershell Script in a WinPE environment.
+Create a Bootable ISO or CD that will execute a custom Powershell Script in a WinPE environment.
 
 This uses:
 
@@ -6,6 +6,8 @@ This uses:
 - PHP scripts on a PHP enabled web server
 
 The idea is to do a zero touch ISO boot and have it record all physical hard drives to a PHP script.
+
+Note: My target is a Dell server with iDrac enabled. I am booting off the ISO file pointed on a local HTTP server. This same server can host the post.php.
 
 ---
 
